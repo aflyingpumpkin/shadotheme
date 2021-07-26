@@ -37,9 +37,9 @@ au ColorScheme * hi Normal ctermbg=none guibg=none
 highlight SignColumn guibg=none
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-  let g:terminal_ansi_colors = ['#140a1d', '#B52A5B', '#FF4971', '#8897F4',
-        \ '#bd93f9', '#E9729D', '#F18FB0', '#f1c4e0', '#a8899c', '#B52A5B',
-        \ '#FF4971', '#8897F4', '#bd93f9', '#E9729D', '#F18FB0', '#f1c4e0']
+  let g:terminal_ansi_colors = ['#140a1d', '#B52A5B', '#ff3d33', '#ffc84c',
+        \ '#6b83f9', '#E9729D', '#F18FB0', '#f1c4e0', '#a8899c', '#B52A5B',
+        \ '#ff3d33', '#ffc84c', '#6b83f9', '#E9729D', '#F18FB0', '#f1c4e0']
   hi Normal guifg=#dfb7e8 guibg=none
   " hi None guifg=#dfdfe0 guibg=NONE
 
@@ -49,15 +49,15 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi CursorLineNr guifg=#de286e guibg=none
   hi LineNr guifg=#a1a1dd guibg=NONE
 
-  hi Search guifg=#8be9fd guibg=NONE gui=bold  "#302b30
-  hi IncSearch guifg=#8be9fd guibg=NONE guisp=#8897F4 gui=bold
+  hi Search guifg=#26B3FF guibg=NONE gui=bold  "#302b30
+  hi IncSearch guifg=#26B3FF guibg=NONE guisp=#ffc84c gui=bold
   " hi Visual guifg=NONE guibg=#40408f guisp=#40408f
   hi Visual guifg=NONE guibg=#414453
   hi EndOfBuffer guifg=#E9729D guibg=NONE
   hi Folded guifg=#53606e guibg=NONE
   hi FoldColumn guifg=#53606e guibg=NONE
   hi MatchWord guifg=#0f5bca guibg=NONE
-  hi MatchParen guifg=#8be9fd guibg=NONE
+  hi MatchParen guifg=#26B3FF guibg=NONE
   hi Signify guifg=#4484d1 guibg=NONE
   hi Ignore guifg=#53606e guibg=NONE
 
@@ -67,7 +67,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi PmenuThumb guifg=#eed6ee guibg=#5b5b8a guisp=#2F2F4A
 
   hi FloatermNC guifg=#6161b3
-  hi FloatermBorder guifg=#ff79c6
+  hi FloatermBorder guifg=#A828FF
 
   " hi Error guifg=#292a30 guibg=#6e2323
   hi Error guifg=#ac2958 guibg=NONE
@@ -89,8 +89,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi DiffDelete guifg=#de286e guibg=none guisp=#c9083f
   hi DiffText guifg=#e3d3eb guibg=#4d254d guisp=#4d254d
 
-  hi Comment guifg=#6272a4 guibg=NONE
-  hi Conceal guifg=#6272a4 guibg=NONE
+  hi Comment guifg=#222222 guibg=NONE
+  hi Conceal guifg=#222222 guibg=NONE
 
   hi Special guifg=#5d5daf guibg=NONE
   hi SpecialComment guifg=#bc6bd0 guibg=NONE
@@ -108,7 +108,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Conditional guifg=#6876de guibg=NONE
   hi Repeat guifg=#6876de guibg=NONE
   hi Label guifg=#bc6bd0 guibg=NONE
-  hi Operator guifg=#6272a4 guibg=bold
+  hi Operator guifg=#222222 guibg=bold
   hi Exception guifg=#943d84 guibg=NONE
   hi Keyword guifg=#ff7ab2 guibg=NONE gui=bold
   
@@ -117,9 +117,9 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Character guifg=#eba4e9 guibg=NONE
   hi Float guifg=#f72d7c guibg=NONE
   hi Number guifg=#de286e guibg=NONE
-  " hi String guifg=#bd93f9 guibg=NONE
+  " hi String guifg=#6b83f9 guibg=NONE
   hi String guifg=#6050dc guibg=NONE
-  hi StringDelimiter guifg=#bd93f9 guibg=NONE
+  hi StringDelimiter guifg=#6b83f9 guibg=NONE
   hi Boolean guifg=#6875ed guibg=NONE
 
   " PreProc "
@@ -135,9 +135,9 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi StorageClass guifg=#c081fa guibg=NONE
   hi Structure guifg=#ff7ab2 guibg=NONE
 
-  hi Title guifg=#8897F4 guibg=NONE gui=bold
+  hi Title guifg=#ffc84c guibg=NONE gui=bold
   hi Todo guifg=#302b30 guibg=#eba4e9 guisp=#eba4e9
-  hi Quote guifg=#6272a4 guibg=NONE
+  hi Quote guifg=#222222 guibg=NONE
 
   hi Directory guifg=#ff7ab2 guibg=NONE
   hi Debug guifg=#bc6bd0 guibg=NONE
@@ -151,7 +151,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi SpellRare guifg=NONE guibg=NONE gui=undercurl
 
   " Telescope
-  hi TelescopeBorder guifg=#bd93f9
+  hi TelescopeBorder guifg=#6b83f9
   " Rust {{{
   hi! link rsForeignConst Constant
   hi! link rsForeignFunc Function

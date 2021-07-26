@@ -46,35 +46,35 @@ highlight SignColumn guibg=none
 " set cursorline
 " set cursorcolumn
 " Foreground
-hi Normal guifg=#dfb7e8 guibg=none
+hi Normal guifg=#eeeeee guibg=none
 " Cursor Color
-hi Cursor guifg=#dfb7e8 guibg=#6161b3 guisp=#6161b3
-hi CursorLine guibg=#1B1B29 guisp=#6161b3
-hi CursorColumn guibg=#1B1B29 guisp=#6161b3
+hi Cursor guifg=#eeeeee guibg=#444444 guisp=#444444
+hi CursorLine guibg=#222222 guisp=#444444
+hi CursorColumn guibg=#222222 guisp=#444444
 
 " Visual Mode
-hi Visual guifg=#eed6ee guibg=#40408f guisp=#40408f
+hi Visual guifg=#eeeeee guibg=#6b83f9 guisp=#6b83f9
 " Line Number
-hi LineNr guifg=#a1a1dd guibg=NONE
+hi LineNr guifg=#26B3FF guibg=NONE
 hi CursorLineNr guifg=#de286e guibg=none
 " Search
-hi Search guifg=#302b30 guibg=#dfb7e8
+hi Search guifg=#302b30 guibg=#eeeeee
 " Search and Replace
-hi IncSearch guifg=#dfb7e8 guibg=#de286e guisp=#ffc84c gui=underline,bold
+hi IncSearch guifg=#eeeeee guibg=#de286e guisp=#ffc84c gui=underline,bold
 
 " Title Text
 hi Title guifg=#ffc84c guibg=NONE gui=bold
 " Floaterm
-hi FloatermNC guifg=#6161b3
+hi FloatermNC guifg=#444444
 hi FloatermBorder guifg=#A828FF
 " Folds
 hi Folded guifg=#42128f guibg=none guisp=#42128f gui=italic
 hi FoldColumn guifg=#7676cd guibg=#2e292e guisp=#2e292e
 " Wild Menu
-hi WildMenu guifg=#eed6ee guibg=#5d5daf
+hi WildMenu guifg=#eeeeee guibg=#5d5daf
 " Status Line
-hi StatusLine guifg=#1B1B29 guibg=#35355e guisp=#35355e gui=bold
-hi StatusLineNC guifg=#1B1B29 guibg=#35355e guisp=#35355e
+hi StatusLine guifg=#222222 guibg=#35355e guisp=#35355e gui=bold
+hi StatusLineNC guifg=#222222 guibg=#35355e guisp=#35355e
 " Non Text extra characters
 hi NonText guifg=#73daff guibg=NONE
 " Diff (Text, Delete, Add, Change)
@@ -134,14 +134,14 @@ hi Debug guifg=#bc6bd0 guibg=NONE
 hi WarningMsg guifg=#ffe5ff guibg=#a83e32 guisp=#a83e32
 hi Error guifg=#ffe5ff guibg=#6e2323 guisp=#6e2323
 " PMenu
-hi PMenu guifg=#eed6ee guibg=#1B1B29 guisp=#3d3d6b  "#3d3d6b
+hi PMenu guifg=#eeeeee guibg=#222222 guisp=#3d3d6b  "#3d3d6b
 hi PMenuSbar guifg=#a883a8 guibg=#2F2F4A guisp=#5b5b8a  "#5b5b8a
 hi PMenuSel guifg=#6876de guibg=#2F2F4A guisp=#2F2F4A gui=bold,underline  "#9ce0ba #25253b
-hi PMenuThumb guifg=#eed6ee guibg=#5b5b8a guisp=#2F2F4A  "#2e2e40
+hi PMenuThumb guifg=#eeeeee guibg=#5b5b8a guisp=#2F2F4A  "#2e2e40
 " File Structure
 hi Directory guifg=#00bbff guibg=NONE
 " Splits
-hi VertSplit guifg=#1B1B29 guibg=#35355E guisp=#35355e
+hi VertSplit guifg=#222222 guibg=#35355E guisp=#35355e
 " Prompt
 hi Question guifg=#90ebba guibg=NONE
 hi MoreMsg guifg=#6c6cae guibg=NONE
