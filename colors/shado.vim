@@ -20,7 +20,6 @@ endif
 set t_Co=256
 let g:colors_name = "shado"
 
-" 16 Bit colors
 let g:terminal_color_0 = '#222222'
 let g:terminal_color_1 = '#ff3236'
 let g:terminal_color_2 = '#2ccc14'
@@ -38,6 +37,7 @@ let g:terminal_color_12 = '#5c5cff'
 let g:terminal_color_13 = '#d505ff'
 let g:terminal_color_14 = '#00e1f5'
 let g:terminal_color_15 = '#ffffff'
+
 
 " Transparent background
 au ColorScheme * hi Normal ctermbg=none guibg=none
@@ -60,13 +60,13 @@ hi CursorLineNr guifg=#de286e guibg=none
 " Search
 hi Search guifg=#302b30 guibg=#dfb7e8
 " Search and Replace
-hi IncSearch guifg=#dfb7e8 guibg=#de286e guisp=#8897F4 gui=underline,bold
+hi IncSearch guifg=#dfb7e8 guibg=#de286e guisp=#ffc84c gui=underline,bold
 
 " Title Text
-hi Title guifg=#8897F4 guibg=NONE gui=bold
+hi Title guifg=#ffc84c guibg=NONE gui=bold
 " Floaterm
 hi FloatermNC guifg=#6161b3
-hi FloatermBorder guifg=#ff79c6
+hi FloatermBorder guifg=#A828FF
 " Folds
 hi Folded guifg=#42128f guibg=none guisp=#42128f gui=italic
 hi FoldColumn guifg=#7676cd guibg=#2e292e guisp=#2e292e
@@ -84,7 +84,7 @@ hi DiffDelete guifg=#de286e guibg=none guisp=#c9083f
 hi DiffText guifg=#e3d3eb guibg=#4d254d guisp=#4d254d
 
 " Comments
-hi Comment guifg=#6272a4 guibg=NONE
+hi Comment guifg=#222222 guibg=NONE
 hi Todo guifg=#302b30 guibg=#eba4e9 guisp=#eba4e9
 
 " Special
