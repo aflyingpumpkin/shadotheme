@@ -21,23 +21,23 @@ set t_Co=256
 let g:colors_name = "shado"
 
 " 16 Bit colors
-let g:terminal_color_0 = '#6272a4'
-let g:terminal_color_1 = '#F37F97'
-let g:terminal_color_2 = '#5ADECD'
-let g:terminal_color_3 = '#8897F4'
-let g:terminal_color_4 = '#bd93f9'
-let g:terminal_color_5 = '#ff79c6'
-let g:terminal_color_6 = '#8be9fd'
-let g:terminal_color_7 = '#bfaae3'
+let g:terminal_color_0 = '#222222'
+let g:terminal_color_1 = '#ff3236'
+let g:terminal_color_2 = '#2ccc14'
+let g:terminal_color_3 = '#ffc84c'
+let g:terminal_color_4 = '#6b83f9'
+let g:terminal_color_5 = '#A828FF'
+let g:terminal_color_6 = '#26B3FF'
+let g:terminal_color_7 = '#eeeeee'
 " Bright
-let g:terminal_color_8  = '#6272a4'
-let g:terminal_color_9  = '#FF4971'
-let g:terminal_color_10 = '#18E3C8'
-let g:terminal_color_11 = '#8897F4'
-let g:terminal_color_12 = '#bd93f9'
-let g:terminal_color_13 = '#ff79c6'
-let g:terminal_color_14 = '#8be9fd'
-let g:terminal_color_15 = '#bfaae3'
+let g:terminal_color_8  = '#666666'
+let g:terminal_color_9  = '#ff3d33'
+let g:terminal_color_10 = '#98FF88'
+let g:terminal_color_11 = '#e0d40f'
+let g:terminal_color_12 = '#5c5cff'
+let g:terminal_color_13 = '#d505ff'
+let g:terminal_color_14 = '#00e1f5'
+let g:terminal_color_15 = '#ffffff'
 
 " Transparent background
 au ColorScheme * hi Normal ctermbg=none guibg=none
